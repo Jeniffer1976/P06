@@ -38,10 +38,11 @@ public class Calculator {
 	}
 
 	private boolean isValid(int a, int b) {
-		if (a > 0 && a <= 9999 && b > 0 && b <= 9999) {
+		if (a >= 0 && a <= 9999 && b >= 0 && b <= 9999) {
 			return true;
 
-		}
+		}else {
 		return false;
+		}
 	}
 }
