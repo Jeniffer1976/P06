@@ -4,7 +4,6 @@ public class Calculator {
 	public int add(int a, int b) {
 		if (isValid(a, b)) {
 			return a + b;
-
 		} else {
 			return -1;
 		}
