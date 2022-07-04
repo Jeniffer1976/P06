@@ -154,7 +154,6 @@ class CalculatorTest {
 		
 		Calculator cal = new Calculator();
 		int actual = cal.divide(a, b);
-		
 		int expected = -1;
 		assertEquals(expected, actual);
 	}
